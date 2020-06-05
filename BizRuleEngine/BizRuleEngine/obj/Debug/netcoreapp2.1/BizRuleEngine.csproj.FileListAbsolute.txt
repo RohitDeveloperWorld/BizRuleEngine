@@ -1,0 +1,10 @@
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.deps.json
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.runtimeconfig.json
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.runtimeconfig.dev.json
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.csproj.CoreCompileInputs.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.AssemblyInfoInputs.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.AssemblyInfo.cs
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.pdb

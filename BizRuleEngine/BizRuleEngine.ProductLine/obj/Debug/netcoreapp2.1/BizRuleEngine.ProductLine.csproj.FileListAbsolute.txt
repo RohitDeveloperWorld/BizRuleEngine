@@ -1,0 +1,12 @@
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\obj\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.csprojAssemblyReference.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\obj\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.csproj.CoreCompileInputs.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\obj\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.AssemblyInfoInputs.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\obj\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.AssemblyInfo.cs
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\bin\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.deps.json
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\bin\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\bin\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\bin\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\bin\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\obj\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.csproj.CopyComplete
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\obj\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ProductLine\obj\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.pdb

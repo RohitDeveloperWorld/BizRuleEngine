@@ -1,0 +1,12 @@
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\obj\Debug\netcoreapp2.1\BizRuleEngine.Services.csprojAssemblyReference.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\obj\Debug\netcoreapp2.1\BizRuleEngine.Services.csproj.CoreCompileInputs.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\obj\Debug\netcoreapp2.1\BizRuleEngine.Services.AssemblyInfoInputs.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\obj\Debug\netcoreapp2.1\BizRuleEngine.Services.AssemblyInfo.cs
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\bin\Debug\netcoreapp2.1\BizRuleEngine.Services.deps.json
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\bin\Debug\netcoreapp2.1\BizRuleEngine.Services.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\bin\Debug\netcoreapp2.1\BizRuleEngine.Services.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\bin\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\bin\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\obj\Debug\netcoreapp2.1\BizRuleEngine.Services.csproj.CopyComplete
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\obj\Debug\netcoreapp2.1\BizRuleEngine.Services.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ShippingPackagingSlip.Service\obj\Debug\netcoreapp2.1\BizRuleEngine.Services.pdb
