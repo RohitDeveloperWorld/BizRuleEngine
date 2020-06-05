@@ -92,5 +92,15 @@ namespace BizRuleEngine.Test
             bizRuleEngineRequestHandler.Handle(services);
         }
 
+        private EmailData EmailData(string message)
+        {
+            EmailData emailData
+                = new EmailData();
+            emailData.sender = "";
+            emailData.Receiver = "";
+            emailData.message = message;
+            return emailData;           
+        }
+
     }
 }
