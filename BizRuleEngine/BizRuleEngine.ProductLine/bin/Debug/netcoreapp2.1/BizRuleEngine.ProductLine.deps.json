@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "BizRuleEngine.ProductLine/1.0.0": {
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0",
+          "BizRuleEngine.ServiceFactory": "1.0.0"
+        },
+        "runtime": {
+          "BizRuleEngine.ProductLine.dll": {}
+        }
+      },
+      "BizRuleEngine.Interfaces/1.0.0": {
+        "runtime": {
+          "BizRuleEngine.Interfaces.dll": {}
+        }
+      },
+      "BizRuleEngine.ServiceFactory/1.0.0": {
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0",
+          "BizRuleEngine.Services": "1.0.0"
+        },
+        "runtime": {
+          "BizRuleEngine.ServiceFactory.dll": {}
+        }
+      },
+      "BizRuleEngine.Services/1.0.0": {
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "BizRuleEngine.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BizRuleEngine.ProductLine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BizRuleEngine.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BizRuleEngine.ServiceFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BizRuleEngine.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

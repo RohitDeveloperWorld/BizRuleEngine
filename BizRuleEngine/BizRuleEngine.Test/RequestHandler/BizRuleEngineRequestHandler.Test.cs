@@ -19,11 +19,11 @@ namespace BizRuleEngine.Test
         { 
             Dictionary<ServiceKey, IService> services =
                 new Dictionary<ServiceKey, IService>();
-            PackagingSlip packagingSlip = 
-                new PackagingSlip();
+            ShippingPackagingSlip packagingSlip = 
+                new ShippingPackagingSlip();
             packagingSlip.Price = 100;
             packagingSlip.SlipNumber = Guid.NewGuid();
-            services.Add(ServiceKey.packingslip, packagingSlip);
+            services.Add(ServiceKey.shippingpackingslip, packagingSlip);
 
             bizRuleEngineRequestHandler.Handle(Products.physical, services);
         }
@@ -32,11 +32,11 @@ namespace BizRuleEngine.Test
         {
             Dictionary<ServiceKey, IService> services =
                 new Dictionary<ServiceKey, IService>();
-            ShippingPackagingSlip packagingSlip =
-                new ShippingPackagingSlip();
+            RoyaltyPackagingSlip packagingSlip =
+                new RoyaltyPackagingSlip();
             packagingSlip.Price = 100;
             packagingSlip.SlipNumber = Guid.NewGuid();
-            services.Add(ServiceKey.packingslip, packagingSlip);
+            services.Add(ServiceKey.royaltypackagingslip, packagingSlip);
 
             bizRuleEngineRequestHandler.Handle(Products.physical, services);
         }

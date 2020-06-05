@@ -13,7 +13,8 @@ namespace BizRuleEngine.Factory
        static ServiceFactory()
         {
             if (Services.Count == 0)
-                Services.Add(ServiceKey.packingslip, new PackagingSlip());
+                Services.Add(ServiceKey.shippingpackingslip, new ShippingPackagingSlip());
+            Services.Add(ServiceKey.royaltypackagingslip, new RoyaltyPackagingSlip());
         }
 
         public static IService GetServiceObject(ServiceKey Key)

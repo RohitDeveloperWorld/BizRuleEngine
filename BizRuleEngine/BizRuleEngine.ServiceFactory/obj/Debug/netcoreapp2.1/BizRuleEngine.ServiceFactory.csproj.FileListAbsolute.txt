@@ -1,0 +1,14 @@
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\obj\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.csprojAssemblyReference.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\obj\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.csproj.CoreCompileInputs.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\obj\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.AssemblyInfoInputs.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\obj\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.AssemblyInfo.cs
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\bin\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.deps.json
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\bin\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\bin\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\bin\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\bin\Debug\netcoreapp2.1\BizRuleEngine.Services.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\bin\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\bin\Debug\netcoreapp2.1\BizRuleEngine.Services.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\obj\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.csproj.CopyComplete
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\obj\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.ServiceFactory\obj\Debug\netcoreapp2.1\BizRuleEngine.ServiceFactory.pdb

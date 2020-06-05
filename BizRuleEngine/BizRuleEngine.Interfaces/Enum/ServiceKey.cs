@@ -6,6 +6,7 @@ namespace BizRuleEngine.Interfaces
 {
     public enum ServiceKey
     {
-        packingslip
+        shippingpackingslip,
+        royaltypackagingslip
     }
 }
