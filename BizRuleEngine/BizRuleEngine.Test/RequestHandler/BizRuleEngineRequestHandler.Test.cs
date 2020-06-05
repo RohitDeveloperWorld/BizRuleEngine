@@ -220,5 +220,38 @@ namespace BizRuleEngine.Test
 
             bizRuleEngineRequestHandler.Handle(services);
         }
+
+        [TestMethod]
+        public void CheckBizRuleEngineForBookwithCommission()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            RoyaltyPackagingSlip packagingSlip =
+                new RoyaltyPackagingSlip();
+
+            RoyaltyPackagingSlipData royaltyPackagingSlipData =
+              new RoyaltyPackagingSlipData();
+            royaltyPackagingSlipData.Price = 100;
+            royaltyPackagingSlipData.SlipNumber = Guid.NewGuid();
+
+            packagingSlip.data = royaltyPackagingSlipData;
+
+            CommissionService commissionService =
+             new CommissionService();
+
+            CommissionData commissionData
+                = new CommissionData();
+            commissionData.Commission = 100;
+            commissionData.SlipNumber = Guid.NewGuid();
+
+
+            commissionService.data = commissionData;
+
+            services.Add(ServiceKey.commission, commissionService);
+
+            services.Add(ServiceKey.royaltypackagingslip, packagingSlip);
+
+            bizRuleEngineRequestHandler.Handle(services);
+        }
     }
 }
