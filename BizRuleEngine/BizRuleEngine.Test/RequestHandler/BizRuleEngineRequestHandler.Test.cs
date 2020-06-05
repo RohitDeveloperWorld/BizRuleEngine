@@ -120,7 +120,7 @@ namespace BizRuleEngine.Test
             EmailService emailService = new EmailService();
             emailService.data = EmailData("Renew Membership");
             services.Add(ServiceKey.membership, membershipService);
-
+            services.Add(ServiceKey.email, emailService);
             bizRuleEngineRequestHandler.Handle(services);
         }
 
@@ -143,6 +143,27 @@ namespace BizRuleEngine.Test
             EmailService emailService = new EmailService();
             emailService.data = EmailData("New Membership");
             services.Add(ServiceKey.membership, membershipService);
+            services.Add(ServiceKey.email, emailService);
+
+            bizRuleEngineRequestHandler.Handle(services);
+        }
+
+        [TestMethod]
+        public void CheckBizRuleEngineForVideoService()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            VideoService videoService =
+                new VideoService();
+
+            VideoPackagingData videoPackagingData
+                = new VideoPackagingData();
+            videoPackagingData.Price = 100;
+            videoPackagingData.SlipNumber = Guid.NewGuid();
+            videoPackagingData.FreeVideoURL = "";
+
+            videoService.data = videoPackagingData;
+            services.Add(ServiceKey.video, videoService);
 
             bizRuleEngineRequestHandler.Handle(services);
         }

@@ -9,6 +9,7 @@ namespace BizRuleEngine.Interfaces
         shippingpackingslip,
         royaltypackagingslip,
         membership,
-        email
+        email,
+        video
     }
 }
