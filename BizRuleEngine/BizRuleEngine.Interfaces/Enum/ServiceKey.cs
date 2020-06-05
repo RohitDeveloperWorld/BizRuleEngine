@@ -8,6 +8,7 @@ namespace BizRuleEngine.Interfaces
     {
         shippingpackingslip,
         royaltypackagingslip,
-        membership
+        membership,
+        email
     }
 }

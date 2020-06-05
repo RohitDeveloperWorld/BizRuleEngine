@@ -17,6 +17,7 @@ namespace BizRuleEngine.Factory
                 Services.Add(ServiceKey.shippingpackingslip, new ShippingPackagingSlip());
                 Services.Add(ServiceKey.royaltypackagingslip, new RoyaltyPackagingSlip());
                 Services.Add(ServiceKey.membership, new MembershipService());
+                Services.Add(ServiceKey.email, new EmailService());
             }
         }
 
