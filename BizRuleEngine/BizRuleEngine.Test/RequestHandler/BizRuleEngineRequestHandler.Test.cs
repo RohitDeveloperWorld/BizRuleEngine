@@ -167,5 +167,25 @@ namespace BizRuleEngine.Test
 
             bizRuleEngineRequestHandler.Handle(services);
         }
+
+        [TestMethod]
+        public void CheckBizRuleEngineForCommissionService()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            CommissionService commissionService =
+                new CommissionService();
+
+            CommissionData commissionData
+                = new CommissionData();
+            commissionData.Commission = 100;
+            commissionData.SlipNumber = Guid.NewGuid();
+
+
+            commissionService.data = commissionData;
+            services.Add(ServiceKey.commission, commissionService);
+
+            bizRuleEngineRequestHandler.Handle(services);
+        }
     }
 }

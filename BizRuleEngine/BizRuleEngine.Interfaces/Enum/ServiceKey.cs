@@ -10,6 +10,7 @@ namespace BizRuleEngine.Interfaces
         royaltypackagingslip,
         membership,
         email,
-        video
+        video,
+        commission
     }
 }

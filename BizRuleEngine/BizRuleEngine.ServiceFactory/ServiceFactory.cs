@@ -18,6 +18,8 @@ namespace BizRuleEngine.Factory
                 Services.Add(ServiceKey.royaltypackagingslip, new RoyaltyPackagingSlip());
                 Services.Add(ServiceKey.membership, new MembershipService());
                 Services.Add(ServiceKey.email, new EmailService());
+                Services.Add(ServiceKey.video, new VideoService());
+                Services.Add(ServiceKey.commission, new CommissionService());
             }
         }
 
