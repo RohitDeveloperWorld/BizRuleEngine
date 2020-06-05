@@ -187,5 +187,38 @@ namespace BizRuleEngine.Test
 
             bizRuleEngineRequestHandler.Handle(services);
         }
+
+        public void CheckBizRuleEngineForPhysicalProductWithCommission()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            ShippingPackagingSlip packagingSlip =
+                new ShippingPackagingSlip();
+
+            ShippingPackagingSlipData shippingPackagingSlipData =
+                new ShippingPackagingSlipData();
+            shippingPackagingSlipData.Price = 100;
+            shippingPackagingSlipData.SlipNumber = Guid.NewGuid();
+
+            packagingSlip.data = shippingPackagingSlipData;
+
+
+            CommissionService commissionService =
+              new CommissionService();
+
+            CommissionData commissionData
+                = new CommissionData();
+            commissionData.Commission = 100;
+            commissionData.SlipNumber = Guid.NewGuid();
+
+
+            commissionService.data = commissionData;
+
+            services.Add(ServiceKey.commission, commissionService);
+
+            services.Add(ServiceKey.shippingpackingslip, packagingSlip);
+
+            bizRuleEngineRequestHandler.Handle(services);
+        }
     }
 }
