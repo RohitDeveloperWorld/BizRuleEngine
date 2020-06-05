@@ -3,12 +3,12 @@ using BizRuleEngine.ProductLine;
 using System;
 using System.Collections.Generic;
 
-namespace BizRuleEngine.ProductFactory
+namespace BizRuleEngine.Factory
 {
 
     public class ProductFactory
     {
-        private static Dictionary<Products, IProductLine> products =
+        private  Dictionary<Products, IProductLine> products =
       new Dictionary<Products, IProductLine>();
 
         public ProductFactory()
@@ -17,7 +17,7 @@ namespace BizRuleEngine.ProductFactory
                 products.Add(Products.physical, new PhysicalProduct());
         }
 
-        public static IProductLine GetProductObject(Products Key)
+        public IProductLine GetProductObject(Products Key)
         {
                 return products[Key];           
         }

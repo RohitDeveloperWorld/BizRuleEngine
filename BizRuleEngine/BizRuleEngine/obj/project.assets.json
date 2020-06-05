@@ -207,6 +207,43 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "BizRuleEngine.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/BizRuleEngine.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.Interfaces.dll": {}
+        }
+      },
+      "BizRuleEngine.ProductFactory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0",
+          "BizRuleEngine.ProductLine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BizRuleEngine.ProductFactory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.ProductFactory.dll": {}
+        }
+      },
+      "BizRuleEngine.ProductLine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BizRuleEngine.ProductLine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.ProductLine.dll": {}
+        }
       }
     }
   },
@@ -680,10 +717,27 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "BizRuleEngine.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.Interfaces/BizRuleEngine.Interfaces.csproj",
+      "msbuildProject": "../BizRuleEngine.Interfaces/BizRuleEngine.Interfaces.csproj"
+    },
+    "BizRuleEngine.ProductFactory/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.ProductFactory/BizRuleEngine.ProductFactory.csproj",
+      "msbuildProject": "../BizRuleEngine.ProductFactory/BizRuleEngine.ProductFactory.csproj"
+    },
+    "BizRuleEngine.ProductLine/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.ProductLine/BizRuleEngine.ProductLine.csproj",
+      "msbuildProject": "../BizRuleEngine.ProductLine/BizRuleEngine.ProductLine.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BizRuleEngine.Interfaces >= 1.0.0",
+      "BizRuleEngine.ProductFactory >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -716,7 +770,14 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.Interfaces\\BizRuleEngine.Interfaces.csproj": {
+              "projectPath": "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.Interfaces\\BizRuleEngine.Interfaces.csproj"
+            },
+            "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.ProductFactory\\BizRuleEngine.ProductFactory.csproj": {
+              "projectPath": "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.ProductFactory\\BizRuleEngine.ProductFactory.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

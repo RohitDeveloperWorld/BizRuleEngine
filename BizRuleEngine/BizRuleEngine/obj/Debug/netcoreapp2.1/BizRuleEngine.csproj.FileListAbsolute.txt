@@ -8,3 +8,11 @@ E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\ne
 E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.AssemblyInfo.cs
 E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.dll
 E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.csprojAssemblyReference.cache
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\obj\Debug\netcoreapp2.1\BizRuleEngine.csproj.CopyComplete
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.ProductFactory.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.dll
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.ProductFactory.pdb
+E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine\bin\Debug\netcoreapp2.1\BizRuleEngine.ProductLine.pdb

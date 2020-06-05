@@ -13,6 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BizRuleEngine.Interfaces\BizRuleEngine.Interfaces.csproj" />
+    <ProjectReference Include="..\BizRuleEngine.ShippingPackagingSlip.Service\BizRuleEngine.Services.csproj" />
     <ProjectReference Include="..\BizRuleEngine\BizRuleEngine.csproj" />
   </ItemGroup>
 

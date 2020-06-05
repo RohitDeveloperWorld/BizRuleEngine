@@ -1622,6 +1622,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0",
+          "BizRuleEngine.ProductFactory": "1.0.0",
           "Microsoft.NETCore.App": "2.1.0"
         },
         "compile": {
@@ -1629,6 +1631,56 @@
         },
         "runtime": {
           "bin/placeholder/BizRuleEngine.dll": {}
+        }
+      },
+      "BizRuleEngine.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/BizRuleEngine.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.Interfaces.dll": {}
+        }
+      },
+      "BizRuleEngine.ProductFactory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0",
+          "BizRuleEngine.ProductLine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BizRuleEngine.ProductFactory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.ProductFactory.dll": {}
+        }
+      },
+      "BizRuleEngine.ProductLine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BizRuleEngine.ProductLine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.ProductLine.dll": {}
+        }
+      },
+      "BizRuleEngine.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BizRuleEngine.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.Services.dll": {}
         }
       }
     }
@@ -5827,11 +5879,33 @@
       "type": "project",
       "path": "../BizRuleEngine/BizRuleEngine.csproj",
       "msbuildProject": "../BizRuleEngine/BizRuleEngine.csproj"
+    },
+    "BizRuleEngine.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.Interfaces/BizRuleEngine.Interfaces.csproj",
+      "msbuildProject": "../BizRuleEngine.Interfaces/BizRuleEngine.Interfaces.csproj"
+    },
+    "BizRuleEngine.ProductFactory/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.ProductFactory/BizRuleEngine.ProductFactory.csproj",
+      "msbuildProject": "../BizRuleEngine.ProductFactory/BizRuleEngine.ProductFactory.csproj"
+    },
+    "BizRuleEngine.ProductLine/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.ProductLine/BizRuleEngine.ProductLine.csproj",
+      "msbuildProject": "../BizRuleEngine.ProductLine/BizRuleEngine.ProductLine.csproj"
+    },
+    "BizRuleEngine.Services/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.ShippingPackagingSlip.Service/BizRuleEngine.Services.csproj",
+      "msbuildProject": "../BizRuleEngine.ShippingPackagingSlip.Service/BizRuleEngine.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "BizRuleEngine >= 1.0.0",
+      "BizRuleEngine.Interfaces >= 1.0.0",
+      "BizRuleEngine.Services >= 1.0.0",
       "MSTest.TestAdapter >= 1.3.2",
       "MSTest.TestFramework >= 1.3.2",
       "Microsoft.NET.Test.Sdk >= 15.9.0",
@@ -5868,6 +5942,12 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.Interfaces\\BizRuleEngine.Interfaces.csproj": {
+              "projectPath": "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.Interfaces\\BizRuleEngine.Interfaces.csproj"
+            },
+            "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.ShippingPackagingSlip.Service\\BizRuleEngine.Services.csproj": {
+              "projectPath": "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.ShippingPackagingSlip.Service\\BizRuleEngine.Services.csproj"
+            },
             "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.csproj": {
               "projectPath": "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.csproj"
             }

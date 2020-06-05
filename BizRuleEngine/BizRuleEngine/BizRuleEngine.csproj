@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BizRuleEngine.Interfaces\BizRuleEngine.Interfaces.csproj" />
+    <ProjectReference Include="..\BizRuleEngine.ProductFactory\BizRuleEngine.ProductFactory.csproj" />
+  </ItemGroup>
+
 </Project>
