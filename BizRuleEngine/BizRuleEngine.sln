@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizRuleEngine", "BizRuleEngine\BizRuleEngine.csproj", "{007D8098-95CA-41C9-88F9-2C01835DD56F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{007D8098-95CA-41C9-88F9-2C01835DD56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007D8098-95CA-41C9-88F9-2C01835DD56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007D8098-95CA-41C9-88F9-2C01835DD56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007D8098-95CA-41C9-88F9-2C01835DD56F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4ECDCE7C-F393-4E11-9821-E02978A1097C}
+	EndGlobalSection
+EndGlobal
