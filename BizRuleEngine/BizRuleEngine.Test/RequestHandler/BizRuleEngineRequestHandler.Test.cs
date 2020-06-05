@@ -21,8 +21,14 @@ namespace BizRuleEngine.Test
                 new Dictionary<ServiceKey, IService>();
             ShippingPackagingSlip packagingSlip = 
                 new ShippingPackagingSlip();
-            packagingSlip.Price = 100;
-            packagingSlip.SlipNumber = Guid.NewGuid();
+
+            ShippingPackagingSlipData shippingPackagingSlipData = 
+                new ShippingPackagingSlipData();
+            shippingPackagingSlipData.Price = 100;
+            shippingPackagingSlipData.SlipNumber = Guid.NewGuid();
+
+            packagingSlip.data = shippingPackagingSlipData;
+
             services.Add(ServiceKey.shippingpackingslip, packagingSlip);
 
             bizRuleEngineRequestHandler.Handle( services);
@@ -34,8 +40,13 @@ namespace BizRuleEngine.Test
                 new Dictionary<ServiceKey, IService>();
             RoyaltyPackagingSlip packagingSlip =
                 new RoyaltyPackagingSlip();
-            packagingSlip.Price = 100;
-            packagingSlip.SlipNumber = Guid.NewGuid();
+
+            RoyaltyPackagingSlipData royaltyPackagingSlipData =
+              new RoyaltyPackagingSlipData();
+            royaltyPackagingSlipData.Price = 100;
+            royaltyPackagingSlipData.SlipNumber = Guid.NewGuid();
+
+            packagingSlip.data = royaltyPackagingSlipData;        
             services.Add(ServiceKey.royaltypackagingslip, packagingSlip);
 
             bizRuleEngineRequestHandler.Handle( services);
@@ -48,9 +59,14 @@ namespace BizRuleEngine.Test
                 new Dictionary<ServiceKey, IService>();
             MembershipService membershipService =
                 new MembershipService();
-            membershipService.Price = 100;
-            membershipService.SlipNumber = Guid.NewGuid();
-            membershipService.isNewUser = true;
+         
+            MembershipServiceData membershipServiceData 
+                = new MembershipServiceData();
+            membershipServiceData.Price = 100;
+            membershipServiceData.SlipNumber = Guid.NewGuid();
+            membershipServiceData.isNewUser = true;
+            membershipService.data = membershipServiceData;
+
             services.Add(ServiceKey.membership, membershipService);
 
             bizRuleEngineRequestHandler.Handle(services);

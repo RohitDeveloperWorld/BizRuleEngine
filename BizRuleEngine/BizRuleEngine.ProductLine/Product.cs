@@ -14,6 +14,7 @@ namespace BizRuleEngine.ProductLine
             {
                 IService service =
                     ServiceFactory.GetServiceObject(_service.Key);
+                service.data = _service.Value.data;
                 service.Process();
 
             }

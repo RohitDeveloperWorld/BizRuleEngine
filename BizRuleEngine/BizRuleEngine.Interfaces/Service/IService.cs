@@ -6,6 +6,7 @@ namespace BizRuleEngine.Interfaces
 {
     public interface IService
     {
-        void Process();        
+        BaseModel data { get; set; }
+        void Process();
     }
 }
