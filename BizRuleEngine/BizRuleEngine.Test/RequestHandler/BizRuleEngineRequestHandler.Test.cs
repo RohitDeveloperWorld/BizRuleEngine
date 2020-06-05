@@ -41,5 +41,20 @@ namespace BizRuleEngine.Test
             bizRuleEngineRequestHandler.Handle( services);
         }
 
+        [TestMethod]
+        public void CheckBizRuleEngineForMembership()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            MembershipService membershipService =
+                new MembershipService();
+            membershipService.Price = 100;
+            membershipService.SlipNumber = Guid.NewGuid();
+            membershipService.isNewUser = true;
+            services.Add(ServiceKey.membership, membershipService);
+
+            bizRuleEngineRequestHandler.Handle(services);
+        }
+
     }
 }

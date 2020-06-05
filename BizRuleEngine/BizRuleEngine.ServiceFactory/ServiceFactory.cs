@@ -10,11 +10,14 @@ namespace BizRuleEngine.Factory
         private static Dictionary<ServiceKey, IService> Services =
      new Dictionary<ServiceKey, IService>();
 
-       static ServiceFactory()
+        static ServiceFactory()
         {
             if (Services.Count == 0)
+            {
                 Services.Add(ServiceKey.shippingpackingslip, new ShippingPackagingSlip());
-            Services.Add(ServiceKey.royaltypackagingslip, new RoyaltyPackagingSlip());
+                Services.Add(ServiceKey.royaltypackagingslip, new RoyaltyPackagingSlip());
+                Services.Add(ServiceKey.membership, new MembershipService());
+            }
         }
 
         public static IService GetServiceObject(ServiceKey Key)
