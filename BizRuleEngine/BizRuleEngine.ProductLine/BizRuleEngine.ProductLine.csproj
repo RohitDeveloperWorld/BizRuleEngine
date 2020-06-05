@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BizRuleEngine.Interfaces\BizRuleEngine.Interfaces.csproj" />
+    <ProjectReference Include="..\BizRuleEngine.ServiceFactory\BizRuleEngine.ServiceFactory.csproj" />
   </ItemGroup>
 
 </Project>

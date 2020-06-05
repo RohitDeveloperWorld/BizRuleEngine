@@ -217,6 +217,33 @@
         "runtime": {
           "bin/placeholder/BizRuleEngine.Interfaces.dll": {}
         }
+      },
+      "BizRuleEngine.ServiceFactory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0",
+          "BizRuleEngine.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BizRuleEngine.ServiceFactory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.ServiceFactory.dll": {}
+        }
+      },
+      "BizRuleEngine.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BizRuleEngine.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.Services.dll": {}
+        }
       }
     }
   },
@@ -695,11 +722,22 @@
       "type": "project",
       "path": "../BizRuleEngine.Interfaces/BizRuleEngine.Interfaces.csproj",
       "msbuildProject": "../BizRuleEngine.Interfaces/BizRuleEngine.Interfaces.csproj"
+    },
+    "BizRuleEngine.ServiceFactory/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.ServiceFactory/BizRuleEngine.ServiceFactory.csproj",
+      "msbuildProject": "../BizRuleEngine.ServiceFactory/BizRuleEngine.ServiceFactory.csproj"
+    },
+    "BizRuleEngine.Services/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.ShippingPackagingSlip.Service/BizRuleEngine.Services.csproj",
+      "msbuildProject": "../BizRuleEngine.ShippingPackagingSlip.Service/BizRuleEngine.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "BizRuleEngine.Interfaces >= 1.0.0",
+      "BizRuleEngine.ServiceFactory >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -735,6 +773,9 @@
           "projectReferences": {
             "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.Interfaces\\BizRuleEngine.Interfaces.csproj": {
               "projectPath": "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.Interfaces\\BizRuleEngine.Interfaces.csproj"
+            },
+            "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.ServiceFactory\\BizRuleEngine.ServiceFactory.csproj": {
+              "projectPath": "E:\\Projects\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine\\BizRuleEngine.ServiceFactory\\BizRuleEngine.ServiceFactory.csproj"
             }
           }
         }

@@ -1661,13 +1661,28 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "BizRuleEngine.Interfaces": "1.0.0"
+          "BizRuleEngine.Interfaces": "1.0.0",
+          "BizRuleEngine.ServiceFactory": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BizRuleEngine.ProductLine.dll": {}
         },
         "runtime": {
           "bin/placeholder/BizRuleEngine.ProductLine.dll": {}
+        }
+      },
+      "BizRuleEngine.ServiceFactory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "BizRuleEngine.Interfaces": "1.0.0",
+          "BizRuleEngine.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BizRuleEngine.ServiceFactory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BizRuleEngine.ServiceFactory.dll": {}
         }
       },
       "BizRuleEngine.Services/1.0.0": {
@@ -5894,6 +5909,11 @@
       "type": "project",
       "path": "../BizRuleEngine.ProductLine/BizRuleEngine.ProductLine.csproj",
       "msbuildProject": "../BizRuleEngine.ProductLine/BizRuleEngine.ProductLine.csproj"
+    },
+    "BizRuleEngine.ServiceFactory/1.0.0": {
+      "type": "project",
+      "path": "../BizRuleEngine.ServiceFactory/BizRuleEngine.ServiceFactory.csproj",
+      "msbuildProject": "../BizRuleEngine.ServiceFactory/BizRuleEngine.ServiceFactory.csproj"
     },
     "BizRuleEngine.Services/1.0.0": {
       "type": "project",
