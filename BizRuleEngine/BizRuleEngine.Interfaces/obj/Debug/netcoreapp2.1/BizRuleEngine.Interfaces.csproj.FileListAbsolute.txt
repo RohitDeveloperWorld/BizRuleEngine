@@ -6,4 +6,3 @@ E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.Interfaces\o
 E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.Interfaces\obj\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.AssemblyInfo.cs
 E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.Interfaces\obj\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.dll
 E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.Interfaces\obj\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.pdb
-E:\Projects\BizRuleEngine\BizRuleEngine\BizRuleEngine\BizRuleEngine.Interfaces\obj\Debug\netcoreapp2.1\BizRuleEngine.Interfaces.csprojAssemblyReference.cache

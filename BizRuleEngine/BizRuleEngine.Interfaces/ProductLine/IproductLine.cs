@@ -6,6 +6,6 @@ namespace BizRuleEngine.Interfaces
 {
     public interface IProductLine
     {
-        void InitiateCheckOut();
+         void InitiateCheckOut();
     }
 }

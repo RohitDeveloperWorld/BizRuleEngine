@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BizRuleEngine.Interfaces\BizRuleEngine.Interfaces.csproj" />
+    <ProjectReference Include="..\BizRuleEngine.ProductLine\BizRuleEngine.ProductLine.csproj" />
+  </ItemGroup>
+
+</Project>
