@@ -16,13 +16,13 @@ namespace BizRuleEngine.Test
 
         [TestMethod]
         public void CheckBizRuleEngineForPhysicalProduct()
-        { 
+        {
             Dictionary<ServiceKey, IService> services =
                 new Dictionary<ServiceKey, IService>();
-            ShippingPackagingSlip packagingSlip = 
+            ShippingPackagingSlip packagingSlip =
                 new ShippingPackagingSlip();
 
-            ShippingPackagingSlipData shippingPackagingSlipData = 
+            ShippingPackagingSlipData shippingPackagingSlipData =
                 new ShippingPackagingSlipData();
             shippingPackagingSlipData.Price = 100;
             shippingPackagingSlipData.SlipNumber = Guid.NewGuid();
@@ -31,7 +31,7 @@ namespace BizRuleEngine.Test
 
             services.Add(ServiceKey.shippingpackingslip, packagingSlip);
 
-            bizRuleEngineRequestHandler.Handle( services);
+            bizRuleEngineRequestHandler.Handle(services);
         }
         [TestMethod]
         public void CheckBizRuleEngineForBook()
@@ -46,10 +46,10 @@ namespace BizRuleEngine.Test
             royaltyPackagingSlipData.Price = 100;
             royaltyPackagingSlipData.SlipNumber = Guid.NewGuid();
 
-            packagingSlip.data = royaltyPackagingSlipData;        
+            packagingSlip.data = royaltyPackagingSlipData;
             services.Add(ServiceKey.royaltypackagingslip, packagingSlip);
 
-            bizRuleEngineRequestHandler.Handle( services);
+            bizRuleEngineRequestHandler.Handle(services);
         }
 
         [TestMethod]
@@ -59,8 +59,8 @@ namespace BizRuleEngine.Test
                 new Dictionary<ServiceKey, IService>();
             MembershipService membershipService =
                 new MembershipService();
-         
-            MembershipServiceData membershipServiceData 
+
+            MembershipServiceData membershipServiceData
                 = new MembershipServiceData();
             membershipServiceData.Price = 100;
             membershipServiceData.SlipNumber = Guid.NewGuid();
@@ -99,7 +99,7 @@ namespace BizRuleEngine.Test
             emailData.sender = "";
             emailData.Receiver = "";
             emailData.message = message;
-            return emailData;           
+            return emailData;
         }
 
         [TestMethod]
@@ -119,6 +119,29 @@ namespace BizRuleEngine.Test
 
             EmailService emailService = new EmailService();
             emailService.data = EmailData("Renew Membership");
+            services.Add(ServiceKey.membership, membershipService);
+
+            bizRuleEngineRequestHandler.Handle(services);
+        }
+
+
+        [TestMethod]
+        public void CheckBizRuleEngineForUpgradeNewMemberShipWithEmail()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            MembershipService membershipService =
+                new MembershipService();
+
+            MembershipServiceData membershipServiceData
+                = new MembershipServiceData();
+            membershipServiceData.Price = 100;
+            membershipServiceData.SlipNumber = Guid.NewGuid();
+            membershipServiceData.isNewUser = true;
+            membershipService.data = membershipServiceData;
+
+            EmailService emailService = new EmailService();
+            emailService.data = EmailData("New Membership");
             services.Add(ServiceKey.membership, membershipService);
 
             bizRuleEngineRequestHandler.Handle(services);
