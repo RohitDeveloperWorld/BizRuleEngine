@@ -3,7 +3,7 @@ using System;
 
 namespace BizRuleEngine.Services
 {
-    public class PackagingSlip : IService
+    public class ShippingPackagingSlip : IService
     {
         public double Price { get; set; }
         public Guid SlipNumber

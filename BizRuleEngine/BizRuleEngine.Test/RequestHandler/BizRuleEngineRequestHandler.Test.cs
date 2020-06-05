@@ -15,10 +15,8 @@ namespace BizRuleEngine.Test
     = new BizRuleEngineRequestHandler(new ProductFactory());
 
         [TestMethod]
-        public void CheckBizRuleEngineRequestHandler()
-        {
-            
-
+        public void CheckBizRuleEngineForPhysicalProduct()
+        { 
             Dictionary<ServiceKey, IService> services =
                 new Dictionary<ServiceKey, IService>();
             PackagingSlip packagingSlip = 
@@ -30,6 +28,18 @@ namespace BizRuleEngine.Test
             bizRuleEngineRequestHandler.Handle(Products.physical, services);
         }
 
+        public void CheckBizRuleEngineForBook()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            ShippingPackagingSlip packagingSlip =
+                new ShippingPackagingSlip();
+            packagingSlip.Price = 100;
+            packagingSlip.SlipNumber = Guid.NewGuid();
+            services.Add(ServiceKey.packingslip, packagingSlip);
+
+            bizRuleEngineRequestHandler.Handle(Products.physical, services);
+        }
 
     }
 }
