@@ -102,6 +102,26 @@ namespace BizRuleEngine.Test
             return emailData;           
         }
 
-      
+        [TestMethod]
+        public void CheckBizRuleEngineForUpgradeMemberShipWithEmail()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            MembershipService membershipService =
+                new MembershipService();
+
+            MembershipServiceData membershipServiceData
+                = new MembershipServiceData();
+            membershipServiceData.Price = 100;
+            membershipServiceData.SlipNumber = Guid.NewGuid();
+            membershipServiceData.isNewUser = false;
+            membershipService.data = membershipServiceData;
+
+            EmailService emailService = new EmailService();
+            emailService.data = EmailData("Renew Membership");
+            services.Add(ServiceKey.membership, membershipService);
+
+            bizRuleEngineRequestHandler.Handle(services);
+        }
     }
 }
