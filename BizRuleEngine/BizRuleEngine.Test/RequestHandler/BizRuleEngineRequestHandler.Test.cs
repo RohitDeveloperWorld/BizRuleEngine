@@ -25,7 +25,7 @@ namespace BizRuleEngine.Test
             packagingSlip.SlipNumber = Guid.NewGuid();
             services.Add(ServiceKey.shippingpackingslip, packagingSlip);
 
-            bizRuleEngineRequestHandler.Handle(Products.physical, services);
+            bizRuleEngineRequestHandler.Handle( services);
         }
         [TestMethod]
         public void CheckBizRuleEngineForBook()
@@ -38,7 +38,7 @@ namespace BizRuleEngine.Test
             packagingSlip.SlipNumber = Guid.NewGuid();
             services.Add(ServiceKey.royaltypackagingslip, packagingSlip);
 
-            bizRuleEngineRequestHandler.Handle(Products.physical, services);
+            bizRuleEngineRequestHandler.Handle( services);
         }
 
     }

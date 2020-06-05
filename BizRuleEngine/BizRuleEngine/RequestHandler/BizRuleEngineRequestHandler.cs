@@ -17,11 +17,11 @@ namespace BizRuleEngine.RequestHandler
 
        
 
-        public void Handle(Products key,
+        public void Handle(
             Dictionary<ServiceKey,IService> services)
         {
             IProductLine ProductLine =
-               _projectFactory.GetProductObject(key);
+               _projectFactory.GetProductObject();
             ProductLine.InitiateCheckOut(services);
         }
     }
