@@ -72,5 +72,25 @@ namespace BizRuleEngine.Test
             bizRuleEngineRequestHandler.Handle(services);
         }
 
+        [TestMethod]
+        public void CheckBizRuleEngineForUpgradeMemberShip()
+        {
+            Dictionary<ServiceKey, IService> services =
+                new Dictionary<ServiceKey, IService>();
+            MembershipService membershipService =
+                new MembershipService();
+
+            MembershipServiceData membershipServiceData
+                = new MembershipServiceData();
+            membershipServiceData.Price = 100;
+            membershipServiceData.SlipNumber = Guid.NewGuid();
+            membershipServiceData.isNewUser = false;
+            membershipService.data = membershipServiceData;
+
+            services.Add(ServiceKey.membership, membershipService);
+
+            bizRuleEngineRequestHandler.Handle(services);
+        }
+
     }
 }
