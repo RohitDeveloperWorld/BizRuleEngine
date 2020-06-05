@@ -27,7 +27,7 @@ namespace BizRuleEngine.Test
 
             bizRuleEngineRequestHandler.Handle(Products.physical, services);
         }
-
+        [TestMethod]
         public void CheckBizRuleEngineForBook()
         {
             Dictionary<ServiceKey, IService> services =

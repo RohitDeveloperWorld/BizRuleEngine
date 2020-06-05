@@ -5,9 +5,8 @@ using System.Collections.Generic;
 
 namespace BizRuleEngine.ProductLine
 {
-    public class PhysicalProduct : IProductLine
+    public class Product : IProductLine
     {    
-        public double _price { get; set; }
         public void InitiateCheckOut
             (Dictionary<ServiceKey, IService> services)
         {
